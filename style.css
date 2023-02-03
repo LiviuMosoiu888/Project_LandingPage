@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto;
+}
+
+.navbar {
+    background-color: #1F2937;
+    color: #fff
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
